@@ -1,0 +1,43 @@
+.repositoryItemContainer {  
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: min(80rem, 100%);
+  height: 11.2rem;
+  padding: 1.41rem 4.0rem 1.41rem 1.41rem;
+
+  border-radius: 5px;
+
+  & + article {
+    margin-top: 1.6rem;
+  }
+}
+
+.repositoryInfo {
+  display: flex;
+  align-items: center;
+  gap: 2.2rem;
+
+  img {
+    width: 8.3rem;
+    border-radius: 50%;
+  }
+
+  > div {
+    display: flex;
+    flex-direction: column;
+
+    strong {
+      font-size: 2.4rem;
+      line-height: 2.8rem;
+    }
+
+    span {
+      font-size: 1.8rem;
+      line-height: 2.8rem;
+      color: #A8A8B3;
+    }
+  }
+}

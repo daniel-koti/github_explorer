@@ -1,0 +1,44 @@
+.homeContainer {
+  width: min(108rem, 100%);
+  padding: 4.0rem;
+  margin: 0 auto;
+
+  header img {
+    width: 20.15rem;
+  }
+
+  form {
+    width: min(80rem, 100%);
+    margin-top: 5.0rem;
+    margin-bottom: 12rem;
+
+    h1 {  
+      font-size: 4.8rem;
+      width: min(43.3rem, 100%);
+      margin-bottom: 4rem;
+    }
+
+    input[type="text"] {
+      width: 80%;
+      height: 7.2rem;
+      border: none;
+      border-radius: 5px 0 0 5px;
+      padding: 0 3.0rem;
+      font-size: 2.0rem;
+      outline: none;
+    }
+
+    button {
+      width: 20%;
+      height: 7.2rem;
+      border: none;
+      border-radius: 0 5px 5px 0;
+      font-size: 1.8rem;
+      font-weight: bold;
+      background: #04D361;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+
+}
